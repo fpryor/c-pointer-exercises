@@ -15,9 +15,9 @@ struct T {
 };
     int i;
     int j = 1;
-    struct T t_arr[4];
+    struct T t_arr[3];
 
-        for (i = 0; i < 4; i++) {
+        for (i = 0; i < 3; i++) {
 
             t_arr[i].x = j;
             t_arr[i].y = j*j;
@@ -25,7 +25,7 @@ struct T {
             j = j + 1;
         }
 
-     for (i = 0; i < 4; i++){
+     for (i = 0; i < 3; i++){
 
          printf("%d,", t_arr[i].x);
          printf("%d,", t_arr[i].y);
