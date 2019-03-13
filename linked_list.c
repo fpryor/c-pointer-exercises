@@ -1,5 +1,5 @@
 //
-// Created by Ivo Georgiev on 2019-03-07.
+// Frank Pryor 3/12/19
 //
 
 #include <stdio.h>
@@ -30,7 +30,6 @@ void print_list(struct Node* head){
 void run_linked_list() {
     printf("Running linked list\n");
 
-    // YOUR CODE HERE
     struct Node* head = NULL;
     //struct Node* torso = NULL;
     struct Node* tail = NULL;
